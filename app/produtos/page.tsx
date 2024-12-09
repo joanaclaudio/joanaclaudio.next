@@ -29,6 +29,7 @@ const ProductsPage: React.FC = () => {
         ))}
       </ul>
     </div>
+    
   );
 };
 
