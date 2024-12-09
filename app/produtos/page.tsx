@@ -25,11 +25,10 @@ const ProductsPage: React.FC = () => {
         {data.map((produto) => (
           <li key={produto.id}>{produto.title}</li>
           /*colocar o resto dos atributos*/
-
         ))}
       </ul>
     </div>
-    
+
   );
 };
 
