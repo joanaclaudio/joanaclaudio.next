@@ -31,9 +31,6 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Header />
         <main>
-        <Link href="/produtos">Produtos</Link>
-        <Link href="/tecnologias">Tecnologias</Link>
-
           {children}
         </main>
         <Footer />
