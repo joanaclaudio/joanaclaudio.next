@@ -1,8 +1,9 @@
 'use client';
 
 import React from 'react';
-import useSWR from 'swr';
+
 import { Produto } from '@/app/models/interfaces';
+import useSWR from 'swr';
 
 // Função fetcher para buscar dados
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
