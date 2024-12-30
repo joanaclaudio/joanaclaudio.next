@@ -2,7 +2,6 @@
 
 import React from 'react';
 import useSWR from 'swr';
-import Image from 'next/image';
 import { Produto } from '@/app/models/interfaces';
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
@@ -27,7 +26,7 @@ const ProductsPage: React.FC = () => {
           
           <li key={produto.id} style={{ margin: '1rem 0', padding: '1rem', border: '1px solid #ccc', borderRadius: '8px' }}>
             <h2><strong>{produto.title}</strong></h2>
-            <Image
+            <img
               src={produto.image}
               alt={produto.title}
               style={{ width: '150px', height: '150px', borderRadius: '4px'}}
