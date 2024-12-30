@@ -1,0 +1,74 @@
+[
+    {
+      "title": "HTML",
+      "image": "/images/html-logo.png",
+      "description": "HTML é a linguagem de marcação padrão para a criação de páginas da web.",
+      "rating": 5
+    },
+    {
+      "title": "CSS",
+      "image": "/images/css-logo.png",
+      "description": "CSS é usado para estilizar e layout de páginas da web.",
+      "rating": 5
+    },
+    {
+      "title": "JavaScript",
+      "image": "/images/javascript-logo.png",
+      "description": "JavaScript é uma linguagem de programação para a web.",
+      "rating": 5
+    },
+    {
+      "title": "JSON",
+      "image": "/images/json-logo.png",
+      "description": "JSON é um formato leve de intercâmbio de dados.",
+      "rating": 4
+    },
+    {
+      "title": "API RESTful",
+      "image": "/images/api-logo.png",
+      "description": "APIs RESTful são usadas para comunicação entre sistemas.",
+      "rating": 5
+    },
+    {
+      "title": "Swagger",
+      "image": "/images/swagger-logo.png",
+      "description": "Swagger é usado para documentar APIs RESTful.",
+      "rating": 4
+    },
+    {
+      "title": "GitHub",
+      "image": "/images/github-logo.png",
+      "description": "GitHub é uma plataforma para hospedagem de código.",
+      "rating": 5
+    },
+    {
+      "title": "Codespaces",
+      "image": "/images/codespaces-logo.png",
+      "description": "Codespaces é um ambiente de desenvolvimento em nuvem.",
+      "rating": 4
+    },
+    {
+      "title": "GitHub Pages",
+      "image": "/images/github-pages-logo.png",
+      "description": "GitHub Pages é usado para hospedar sites estáticos.",
+      "rating": 4
+    },
+    {
+      "title": "React.js",
+      "image": "/images/react-logo.png",
+      "description": "React.js é uma biblioteca para construção de interfaces de usuário.",
+      "rating": 5
+    },
+    {
+      "title": "Next.js",
+      "image": "/images/nextjs-logo.png",
+      "description": "Next.js é um framework React para aplicações web.",
+      "rating": 5
+    },
+    {
+      "title": "Vercel",
+      "image": "/images/vercel-logo.png",
+      "description": "Vercel é uma plataforma de hospedagem para projetos frontend.",
+      "rating": 4
+    }
+  ]

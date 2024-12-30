@@ -34,8 +34,8 @@ const ProductsPage: React.FC = () => {
             />
             
             <p>Descrição: {produto.description}</p>
-            <p>Custo: €{produto.price.toFixed(2)}</p>
-            <p>Avaliação: {produto.rating.rate} (Baseado em {produto.rating.count} avaliações)</p>
+            <p><strong>Custo:</strong> {produto.price.toFixed(2)}€</p>
+            <p><strong>Avaliação: </strong>{produto.rating.rate} (Baseado em {produto.rating.count} avaliações)</p>
           </li>
         ))}
       </ul>
