@@ -1,7 +1,7 @@
 import React from 'react';
 import tecnologias from '@/app/data/tecnologia.json';
 import CardTecnologia from '@/components/CardTecnologia';
-import { styleText } from 'util';
+
 
 interface Tecnologia {
   title: string;
