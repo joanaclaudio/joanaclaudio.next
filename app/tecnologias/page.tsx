@@ -15,7 +15,7 @@ const TecnologiasPage: React.FC = () => {
     <div>
       <h1 style={{fontSize: 20
       }}><strong>Tecnologias Aprendidas:</strong></h1>
-      <br />
+      
       <div className="cards-container" style={{display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',

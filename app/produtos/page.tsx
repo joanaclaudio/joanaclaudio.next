@@ -25,11 +25,11 @@ const ProductsPage: React.FC = () => {
         {data.map((produto) => (
           
           <li key={produto.id} style={{ margin: '1rem 0', padding: '1rem', border: '1px solid #ccc', borderRadius: '8px' }}>
-            <h2><strong>{produto.title}</strong></h2>
+            <h2 style={{marginLeft:40, marginRight: 30}}><strong>{produto.title}</strong></h2>
             <img
               src={produto.image}
               alt={produto.title}
-              style={{ width: '150px', height: '150px', borderRadius: '4px'}}
+              style={{ width: '150px', height: '150px', borderRadius: '4px', marginLeft:40}}
             />
             
             <p>Descrição: {produto.description}</p>
@@ -47,7 +47,7 @@ export default function Produtos() {
   return (
     <div>
       <h2 style={{fontSize: 20
-      }}>Produtos Disponíveis:</h2>
+      }}><strong>Produtos Disponíveis:</strong></h2>
       
       <ProductsPage />
     </div>
