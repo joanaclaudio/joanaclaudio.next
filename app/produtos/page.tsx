@@ -21,7 +21,6 @@ const ProductsPage: React.FC = () => {
   // Renderização dos produtos
   return (
     <div>
-      <h1>Lista de Produtos</h1>
       <ul>
         {data.map((produto) => (
           
@@ -47,7 +46,8 @@ const ProductsPage: React.FC = () => {
 export default function Produtos() {
   return (
     <div>
-      <h2>Produtos Disponíveis:</h2>
+      <h2 style={{fontSize: 20
+      }}>Produtos Disponíveis:</h2>
       
       <ProductsPage />
     </div>
