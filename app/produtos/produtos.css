@@ -1,0 +1,20 @@
+.produto{
+    border: '1px solid #ccc';
+    border-Radius: 8px;
+    display: flex; 
+    flex-Direction: column;
+    align-Items: center; 
+    justify-Content: center; 
+    padding: 1rem; 
+    text-Align: center; 
+    margin-Top: 20px;
+}
+
+.image{
+
+}
+
+.title{
+    font-size: 20px;
+    
+}

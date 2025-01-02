@@ -9,7 +9,7 @@ export default function Header() {
         <h1>React & Next.js</h1>
         <nav className={styles.nav}>
           <li><Link href="/">Home </Link></li>
-          <li><Link href="/produtos">Produtos</Link></li>
+          <li><Link href="/loja">Loja</Link></li>
             
           <li><Link href="/tecnologias">Tecnologias</Link></li>
         </nav>

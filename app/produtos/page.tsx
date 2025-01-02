@@ -3,6 +3,7 @@
 import React from 'react';
 import useSWR from 'swr';
 import { Produto } from '@/app/models/interfaces';
+import "./produtos.css";
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
@@ -20,21 +21,26 @@ const ProductsPage: React.FC = () => {
 
   // Renderização dos produtos
   return (
-    <div>
+    <div >
+      
       <ul>
         {data.map((produto) => (
           
-          <li key={produto.id} style={{ margin: '1rem 0', padding: '1rem', border: '1px solid #ccc', borderRadius: '8px' }}>
-            <h2 style={{marginLeft:40, marginRight: 30}}><strong>{produto.title}</strong></h2>
+          <li
+            key={produto.id} className='produto'
+          >
+            <h2 className='title'><strong>{produto.title}</strong></h2>
             <img
               src={produto.image}
               alt={produto.title}
-              style={{ width: '150px', height: '150px', borderRadius: '4px', marginLeft:40}}
+              className='image'
             />
-            
-            <p>Descrição: {produto.description}</p>
+            <p>{produto.description}</p>
             <p><strong>Custo:</strong> {produto.price.toFixed(2)}€</p>
             <p><strong>Avaliação: </strong>{produto.rating.rate} (Baseado em {produto.rating.count} avaliações)</p>
+            <button style={{ background: '#FFFFFF', borderRadius: 20, width: 300, padding: '0.5rem' }}>
+              <strong>Adicionar ao carrinho</strong>
+            </button>
           </li>
         ))}
       </ul>
@@ -45,7 +51,7 @@ const ProductsPage: React.FC = () => {
 
 export default function Produtos() {
   return (
-    <div>
+    <div style={{display:'grid', justifyContent: 'center', alignContent:'center'}}>
       <h2 style={{fontSize: 20
       }}><strong>Produtos Disponíveis:</strong></h2>
       

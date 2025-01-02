@@ -41,12 +41,12 @@ body {
 
 main {
   /* Reset e Box Model */
-  width: 320px;
-  height: 450px;
+  width: 100%;
+  height: 100%;
   padding: 20px;
   border-radius: 20px;
   overflow-y: auto;
 
   /* Fundo */
-  background: whitesmoke;
+  background: rgba(119, 255, 244, 0.356);
 }

@@ -1,0 +1,19 @@
+.card {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.card-title{
+    font-Size: 40px;
+    
+}
+.card-image{
+    margin: 0 auto;
+}
